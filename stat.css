@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box1 ,.box2 ,.box3,.box4,.box5,.box6,.box7,.box8 {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover {
+    border: 2px solid black;
+    background-image: url('IMG_20220819_001223.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 15px rgb(255, 0, 0);
+}
+
+
+
+
+
+
+.boxe{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 15px grey;
+}
+.info{
+    height: 100%;
+    text-display:none;
+}
+.info:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;}
+
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+@media (max-width:600px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav{
+        margin: 15px;
+    }
+    main{ 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
