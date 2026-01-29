@@ -40,7 +40,7 @@ main{
 
 .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover {
     border: 2px solid black;
-    background-image: url('krishna.jpg');
+    background-image: url('MyPhoto.JPG');
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -50,19 +50,6 @@ main{
     box-shadow: 5px 5px 15px rgb(255, 0, 0);
 }
 
-
-
-
-
-
-.boxe{
-    border: 2px solid black;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-    box-shadow: 5px 5px 15px grey;
-}
 .info{
     height: 100%;
     text-display:none;
